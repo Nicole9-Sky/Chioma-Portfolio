@@ -20,7 +20,7 @@ Check out my live portfolio here: [Chioma Portfolio](https://nicole9-sky.github.
 | [![](screenshots/blog.png)](http://127.0.0.1:5500/Chioma-Portfolio-main/theme/blog.html) | [![](screenshots/blog-details.png)](http://127.0.0.1:5500/Chioma-Portfolio-main/theme/blog-single.html) | [![](screenshots/contact.png)](http://127.0.0.1:5500/Chioma-Portfolio-main/theme/contact.html) |
 | **Blog** | **Blog Details** | **Contact** |
 
-👉🏻[View Live Preview](https://demo.themefisher.com/kross/)
+👉🏻[View Live Preview]()
 
 
 ## Pages
