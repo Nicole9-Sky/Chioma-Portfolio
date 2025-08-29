@@ -1,8 +1,8 @@
 {
-  "name": "kross",
+  "name": "Chioma",
   "version": "1.0.1",
-  "description": "kross free personal portfolio template",
-  "author": "Themefisher",
+  "description": "Chioma's Personal Portfolio Website",
+  "author": "FREDA",
   "license": "MIT",
   "scripts": {
     "dev": "gulp",

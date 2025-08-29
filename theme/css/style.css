@@ -1,8 +1,8 @@
 /**
- * WEBSITE: https://themefisher.com
- * TWITTER: https://twitter.com/themefisher
- * FACEBOOK: https://www.facebook.com/themefisher
- * GITHUB: https://github.com/themefisher/
+ * WEBSITE: https://nicole9-sky.github.io/Chioma-Portfolio/
+ * TWITTER: https://www.twitter.com/Nicole00081
+ * INSTAGRAM: https://www.instagram.com/chioma_codes
+ * GITHUB: https://github.com/Nicole9-Sky)
  */
 
 /*  typography */
@@ -100,13 +100,13 @@ h6, .h6 {
   color: #fff;
 }
 .btn-primary:active {
-  background: #542cb7 !important;
+  background: rgb(83.8352272727, 43.8522727273, 183.1477272727) !important;
 }
 .btn-primary:hover {
-  background: #542cb7;
+  background: rgb(83.8352272727, 43.8522727273, 183.1477272727);
 }
 .btn-primary.focus, .btn-primary.active {
-  background: #542cb7 !important;
+  background: rgb(83.8352272727, 43.8522727273, 183.1477272727) !important;
   box-shadow: none !important;
 }
 
@@ -125,12 +125,12 @@ body {
 }
 
 ::-moz-selection {
-  background: #542cb7;
+  background: rgb(83.8352272727, 43.8522727273, 183.1477272727);
   color: #fff;
 }
 
 ::selection {
-  background: #542cb7;
+  background: rgb(83.8352272727, 43.8522727273, 183.1477272727);
   color: #fff;
 }
 
@@ -425,24 +425,20 @@ textarea.form-control {
 }
 
 .hero-area {
-  padding: 80px 0 60px;
+  padding: 300px 0 200px;
   position: relative;
 }
 @media (max-width: 767px) {
   .hero-area {
-    padding: 80px 0 60px;
+    padding: 250px 0 150px;
     overflow: hidden;
   }
 }
 .hero-area h1 {
   position: relative;
   z-index: 2;
-  font-size: 1.8rem; 
-  font-weight: 600;
-  margin-left: 0 !important;    
-  padding-left: 0 !important;  
-  padding-top: 100px;   /* moves the text down without affecting navbar */
 }
+
 .layer {
   position: absolute;
   z-index: 1;
@@ -520,26 +516,15 @@ textarea.form-control {
   background-color: rgba(255, 255, 255, 0.4);
   border-radius: 45%;
   transform: translateX(-50%) rotate(0);
-  -webkit-animation: rotate 6s linear infinite;
-          animation: rotate 6s linear infinite;
+  animation: rotate 6s linear infinite;
   z-index: 10;
 }
 .wave::after {
   border-radius: 47%;
   background-color: rgba(255, 255, 255, 0.9);
   transform: translateX(-50%) rotate(0);
-  -webkit-animation: rotate 10s linear -5s infinite;
-          animation: rotate 10s linear -5s infinite;
+  animation: rotate 10s linear -5s infinite;
   z-index: 20;
-}
-
-@-webkit-keyframes rotate {
-  50% {
-    transform: translateX(-50%) rotate(180deg);
-  }
-  100% {
-    transform: translateX(-50%) rotate(360deg);
-  }
 }
 
 @keyframes rotate {
@@ -626,8 +611,6 @@ textarea.form-control {
 }
 
 /* /portfolio */
-
-
 /* testimonial */
 .testimonial-content strong {
   color: #2bfdff;
@@ -837,10 +820,4 @@ blockquote {
 .filter-controls li.active {
   font-weight: bold;
 }
-
-.navbar-brand img {
-    max-height: 150px;   
-    width: auto;
-    height: auto;
-    display: inline-block;  
-}
+/*# sourceMappingURL=style.css.map */
