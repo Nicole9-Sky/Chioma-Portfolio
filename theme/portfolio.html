@@ -13,21 +13,21 @@
   <!-- Basic Page Needs
   ================================================== -->
   <meta charset="utf-8">
-  <title>Kross - Creative Portfolio Template</title>
+  <title>CHIOMA'S PORTFOLIO</title>
 
   <!-- Mobile Specific Metas
   ================================================== -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="Creative Portfolio Template">
+  <meta name="description" content="PORTFOLIO WEBSITE">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-  <meta name="author" content="Themefisher">
-  <meta name="generator" content="Themefisher Kross Template v1.0">
+  <meta name="author" content="FREDA">
+  <meta name="generator" content="CHIOMA'S PORTFOLIO v1.0">
   
   <!-- theme meta -->
-  <meta name="theme-name" content="kross" />
+  <meta name="theme-name" content="FREDA" />
   
   <!-- Favicon -->
-  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+  <link rel="shortcut icon" type="image/PNG" href="images/favicon.png" />
   
   <!-- ** Plugins Needed for the Project ** -->
   <!-- Bootstrap -->
@@ -47,7 +47,7 @@
 
 <header class="navigation fixed-top">
   <nav class="navbar navbar-expand-lg navbar-dark">
-    <a class="navbar-brand font-tertiary h3" href="index.html"><img src="images/logo.png" alt="Myself"></a>
+    <a class="navbar-brand font-tertiary h3" href="index.html"><img src="images/logo/logo.png" alt="Myself"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
       aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -84,20 +84,16 @@
       </div>
     </div>
   </div>
-  <!-- background shapes -->
-  <img src="images/illustrations/page-title.png" alt="illustrations" class="bg-shape-1 w-100">
-  <img src="images/illustrations/leaf-pink-round.png" alt="illustrations" class="bg-shape-2">
-  <img src="images/illustrations/dots-cyan.png" alt="illustrations" class="bg-shape-3">
-  <img src="images/illustrations/leaf-orange.png" alt="illustrations" class="bg-shape-4">
-  <img src="images/illustrations/leaf-yellow.png" alt="illustrations" class="bg-shape-5">
-  <img src="images/illustrations/dots-group-cyan.png" alt="illustrations" class="bg-shape-6">
-  <img src="images/illustrations/leaf-cyan-lg.png" alt="illustrations" class="bg-shape-7">
 </section>
 <!-- /page title -->
-
 <!-- portfolio -->
 <section class="section">
   <div class="container">
+
+  <!-- portfolio -->
+<section class="section">
+  <div class="container">
+    <!-- Filter Buttons -->
     <div class="row mb-5">
       <div class="col-12">
         <div class="btn-group btn-group-toggle justify-content-center d-flex" data-toggle="buttons">
@@ -105,150 +101,168 @@
             <input type="radio" name="shuffle-filter" value="all" checked="checked" />All
           </label>
           <label class="btn btn-sm btn-primary">
-            <input type="radio" name="shuffle-filter" value="design" />UI/UX Design
+            <input type="radio" name="shuffle-filter" value="web-dev" />Web Development
           </label>
           <label class="btn btn-sm btn-primary">
-            <input type="radio" name="shuffle-filter" value="branding" />BRANDING
+            <input type="radio" name="shuffle-filter" value="django" />Django Projects
           </label>
           <label class="btn btn-sm btn-primary">
-            <input type="radio" name="shuffle-filter" value="illustration" />ILLUSTRATION
+            <input type="radio" name="shuffle-filter" value="web3" />Web3 Content Writing
+          </label>
+          <label class="btn btn-sm btn-primary">
+            <input type="radio" name="shuffle-filter" value="website" />Website Creation
           </label>
         </div>
       </div>
     </div>
+
+    <!-- Projects Grid -->
     <div class="row shuffle-wrapper">
-      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;design&quot;,&quot;illustration&quot;]">
-        <div class="position-relative rounded hover-wrapper">
-          <img src="images/portfolio/item-1.png" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
-          <div class="hover-overlay">
-            <div class="hover-content">
-              <a class="btn btn-light btn-sm" href="#!">view project</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;branding&quot;]">
-        <div class="position-relative rounded hover-wrapper">
-          <img src="images/portfolio/item-2.png" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
-          <div class="hover-overlay">
-            <div class="hover-content">
-              <a class="btn btn-light btn-sm" href="#!">view project</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;illustration&quot;]">
-        <div class="position-relative rounded hover-wrapper">
-          <img src="images/portfolio/item-3.png" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
-          <div class="hover-overlay">
-            <div class="hover-content">
-              <a class="btn btn-light btn-sm" href="#!">view project</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;design&quot;,&quot;branding&quot;]">
+
+      <!-- Project 1 -->
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4 shuffle-item" data-groups='["django","web-dev"]'>
         <div class="position-relative rounded hover-wrapper">
           <img src="images/portfolio/item-6.png" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
           <div class="hover-overlay">
             <div class="hover-content">
-              <a class="btn btn-light btn-sm" href="#!">view project</a>
+              <a class="btn btn-light btn-sm" href="https://django-blog-project-2-whsp.onrender.com!" target="_blank">View Project</a>
             </div>
           </div>
         </div>
+        <p class="mt-2 text-dark">This Django-powered blog application allows users to read, comment on, and share posts. It features user authentication, post management, and a clean, responsive design. Built with Python, Django, and Bootstrap, the project demonstrates my skills in developing content-driven web apps, integrating databases for dynamic content, and creating user-centric designs.</p>
       </div>
-      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;illustration&quot;]">
-        <div class="position-relative rounded hover-wrapper">
-          <img src="images/portfolio/item-8.png" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
-          <div class="hover-overlay">
-            <div class="hover-content">
-              <a class="btn btn-light btn-sm" href="#!">view project</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;design&quot;]">
-        <div class="position-relative rounded hover-wrapper">
-          <img src="images/portfolio/item-5.png" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
-          <div class="hover-overlay">
-            <div class="hover-content">
-              <a class="btn btn-light btn-sm" href="#!">view project</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;branding&quot;]">
+
+      <!-- Project 2 -->
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4 shuffle-item" data-groups='["website","web-dev"]'>
         <div class="position-relative rounded hover-wrapper">
           <img src="images/portfolio/item-1.png" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
           <div class="hover-overlay">
             <div class="hover-content">
-              <a class="btn btn-light btn-sm" href="#!">view project</a>
+              <a class="btn btn-light btn-sm" href="https://django-blog-project-2-whsp.onrender.com!" target="_blank">View Project</a>
             </div>
           </div>
         </div>
+        <p class="mt-2 text-dark">An enhanced version of my blog project with added features such as post categorization, search functionality, and an admin panel for content management. This project showcases my ability to improve existing applications, implement advanced Django features, and enhance user experience through better organization and accessibility of content.</p>
       </div>
-      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;design&quot;,&quot;illustration&quot;,&quot;branding&quot;]">
+
+      <!-- Project 3 -->
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4 shuffle-item" data-groups='["django"]'>
         <div class="position-relative rounded hover-wrapper">
-          <img src="images/portfolio/item-3.png" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+          <img src="images/portfolio/item-11.png" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
           <div class="hover-overlay">
             <div class="hover-content">
-              <a class="btn btn-light btn-sm" href="#!">view project</a>
+              <a class="btn btn-light btn-sm" href="https://django-blog-project-2-whsp.onrender.com" target="_blank">View Project</a>
             </div>
           </div>
         </div>
+        <p class="mt-2 text-dark">A dynamic online bookstore platform that allows users to browse, filter, and purchase books. Built with Django and integrated with a MySQL database, it includes features like cart management, order tracking, and secure user authentication. This project demonstrates my ability to develop e-commerce solutions, manage relational databases, and create responsive web interfaces for optimal user interaction.</p>
       </div>
-      <div class="col-lg-4 col-6 mb-4 shuffle-item illustration" data-groups="[&quot;illustration&quot;]">
+
+      <!-- Project 4 -->
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4 shuffle-item" data-groups='["django"]'>
+        <div class="position-relative rounded hover-wrapper">
+          <img src="images/portfolio/item-10.png" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+          <div class="hover-overlay">
+            <div class="hover-content">
+              <a class="btn btn-light btn-sm" href="https://bookvault-frontend.netlify.app/" target="_blank">View Project</a>
+            </div>
+          </div>
+        </div>
+        <p class="mt-2 text-dark">A two-factor authentication demo app focused on learning and demonstrating secure login systems. Users experience a fully functional authentication workflow, showcasing role-based access, session management, and protection against unauthorized access. This project emphasizes my understanding of web security, authentication protocols, and practical implementation in Django applications.</p>
+      </div>
+
+      <!-- Project 5 -->
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4 shuffle-item" data-groups='["website"]'>
+        <div class="position-relative rounded hover-wrapper">
+          <img src="images/portfolio/item-2.png" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+          <div class="hover-overlay">
+            <div class="hover-content">
+              <a class="btn btn-light btn-sm" href="https://django-two-factor-auth-1.onrender.com/!" target="_blank">View Project</a>
+            </div>
+          </div>
+        </div>
+        <p class="mt-2 text-dark">BookVault frontend clone project showcasing a polished user interface for browsing and exploring books. Built with React and integrated with APIs for dynamic content, it emphasizes my frontend development skills, component-based design, and attention to responsive and interactive UI elements. This project also highlights my ability to translate backend functionality into seamless frontend experiences.</p>
+      </div>
+
+      <!-- Project 6 -->
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4 shuffle-item" data-groups='["django"]'>
         <div class="position-relative rounded hover-wrapper">
           <img src="images/portfolio/item-7.png" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
           <div class="hover-overlay">
             <div class="hover-content">
-              <a class="btn btn-light btn-sm" href="#!">view project</a>
+              <a class="btn btn-light btn-sm" href="https://django-two-factor-auth-1.onrender.com/" target="_blank">View Project</a>
             </div>
           </div>
         </div>
+        <p class="mt-2 text-dark">A web-based Library Management System built with Django and MySQL. The system allows users to borrow, return, and manage library resources efficiently, with an admin panel for tracking inventory and users. This project demonstrates my skills in database design, backend logic, and creating applications that solve real-world problems with structured, scalable solutions.</p>
       </div>
-    </div>
-  </div>
-</section>
-<!-- /portfolio -->
 
-<!-- clients -->
-<section class="section bg-light">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center">
-        <h2 class="section-title">My Clients</h2>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-12">
-        <div class="client-logo-slider d-flex align-items-center">
-          <a href="contact.html" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
-              src="images/clients-logo/client-logo-1.png" alt="client-logo"></a>
-          <a href="contact.html" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
-              src="images/clients-logo/client-logo-2.png" alt="client-logo"></a>
-          <a href="contact.html" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
-              src="images/clients-logo/client-logo-3.png" alt="client-logo"></a>
-          <a href="contact.html" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
-              src="images/clients-logo/client-logo-4.png" alt="client-logo"></a>
-          <a href="contact.html" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
-              src="images/clients-logo/client-logo-5.png" alt="client-logo"></a>
-          <a href="contact.html" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
-              src="images/clients-logo/client-logo-1.png" alt="client-logo"></a>
-          <a href="contact.html" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
-              src="images/clients-logo/client-logo-2.png" alt="client-logo"></a>
-          <a href="contact.html" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
-              src="images/clients-logo/client-logo-3.png" alt="client-logo"></a>
-          <a href="contact.html" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
-              src="images/clients-logo/client-logo-4.png" alt="client-logo"></a>
-          <a href="contact.html" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
-              src="images/clients-logo/client-logo-5.png" alt="client-logo"></a>
+      <!-- Project 7 -->
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4 shuffle-item" data-groups='["web3"]'>
+        <div class="position-relative rounded hover-wrapper">
+          <img src="images/portfolio/item-8.png" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+          <div class="hover-overlay">
+            <div class="hover-content">
+              <a class="btn btn-light btn-sm" href="https://django-blog-project-2-whsp.onrender.com!!" target="_blank">View Project</a>
+            </div>
+          </div>
         </div>
+        <p class="mt-2 text-dark">A content-driven educational platform built with Django, allowing instructors to upload courses and students to access learning materials. Features include authentication, role-based access, and interactive content display. This project highlights my backend development capabilities, database integration, and focus on creating solutions that enhance learning and engagement.</p>
       </div>
-    </div>
-  </div>
-</section>
-<!-- /clients -->
+
+      <!-- Project 8 -->
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4 shuffle-item" data-groups='["website","web-dev"]'>
+        <div class="position-relative rounded hover-wrapper">
+          <img src="images/portfolio/item-3.png" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+          <div class="hover-overlay">
+            <div class="hover-content">
+              <a class="btn btn-light btn-sm" href="https://django-two-factor-auth-1.onrender.com/!!" target="_blank">View Project</a>
+            </div>
+          </div>
+        </div>
+        <p class="mt-2 text-dark">A Web3 content-focused blog platform where users can explore and publish blockchain-related articles. Built with Django and integrated with external APIs for dynamic content, this project demonstrates my skills in Web3 technologies, content management, and designing platforms that cater to modern blockchain and cryptocurrency audiences.</p>
+      </div>
+
+      <!-- Project 9 -->
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4 shuffle-item" data-groups='["django"]'>
+        <div class="position-relative rounded hover-wrapper">
+          <img src="images/portfolio/item-9.png" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+          <div class="hover-overlay">
+            <div class="hover-content">
+              <a class="btn btn-light btn-sm" href="https://django-blog-project-2-whsp.onrender.com!!" target="_blank">View Project</a>
+            </div>
+          </div>
+        </div>
+        <p class="mt-2 text-dark">A website creation project where users can design, customize, and publish their personal websites without prior coding knowledge. Built using Django for the backend and Bootstrap for responsive design, this project highlights my ability to develop tools that empower users, combine frontend and backend skills, and provide intuitive interfaces for real-world applications.</p>
+      </div>
+
+      <!-- Project 10 -->
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4 shuffle-item" data-groups='["django"]'>
+        <div class="position-relative rounded hover-wrapper">
+          <img src="images/portfolio/item-12.png" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+          <div class="hover-overlay">
+            <div class="hover-content">
+              <a class="btn btn-light btn-sm" href="https://github.com/Nicole9-Sky/Library-Management-Website.git!" target="_blank">View Project</a>
+            </div>
+          </div>
+        </div>
+        <p class="mt-2 text-dark">A web-based Library Management System built with Django and MySQL. The system allows users to borrow, return, and manage library resources efficiently, with an admin panel for tracking inventory and users. This project demonstrates my skills in database design, backend logic, and creating applications that solve real-world problems with structured, scalable solutions. It also showcases my ability to integrate user authentication, manage roles, and ensure smooth user interactions.</p>
+      </div>
+
+      <!-- Project 11 -->
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4 shuffle-item" data-groups='["website","web-dev"]'>
+        <div class="position-relative rounded hover-wrapper">
+          <img src="images/portfolio/item-15.png" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+          <div class="hover-overlay">
+            <div class="hover-content">
+              <a class="btn btn-light btn-sm" href="https://github.com/Nicole9-Sky/Library-Management-Website.git" target="_blank">View Project</a>
+            </div>
+          </div>
+        </div>
+        <p class="mt-2 text-dark">A website creation project where users can design, customize, and publish their personal websites without prior coding knowledge. Built using Django for the backend and Bootstrap for responsive design, this project highlights my ability to develop tools that empower users, combine frontend and backend skills, and provide intuitive interfaces for real-world applications. It demonstrates skills in UI/UX, dynamic content management, and building scalable web solutions that deliver value to end-users.</p>
+      </div>
+      </div>
+      </section>
 
 <!-- contact -->
 <section class="section section-on-footer" data-background="images/backgrounds/bg-dots.png">
@@ -289,28 +303,30 @@
       <div class="row">
         <div class="col-md-4">
           <h5 class="text-light">Email</h5>
-          <p class="text-white paragraph-lg font-secondary">steve.fruits@email.com</p>
+          <p class="text-white paragraph-lg font-secondary">cezeh247@gmail.com</p>
         </div>
         <div class="col-md-4">
           <h5 class="text-light">Phone</h5>
-          <p class="text-white paragraph-lg font-secondary">+880 2544 658 256</p>
+          <p class="text-white paragraph-lg font-secondary">+234 913 011 44 32</p>
         </div>
         <div class="col-md-4">
-          <h5 class="text-light">Address</h5>
-          <p class="text-white paragraph-lg font-secondary">125/A, CA Commercial Area, California, USA</p>
+          <h5 class="text-light">Location</h5>
+          <p class="text-white paragraph-lg font-secondary">Lagos, Nigeria</p>
         </div>
       </div>
     </div>
   </div>
   <div class="border-top text-center border-dark py-5">
-    <p class="mb-0 text-light">Copyright &copy;<script>
+    <p class="mb-0 text-light">
+      Copyright &copy;
+      <script>
         var CurrentYear = new Date().getFullYear()
         document.write(CurrentYear)
-      </script> Designed &amp; Developed by <a class="text-white-50" href="Themefisher">Themefisher</a></p>
+      </script> Designed &amp; Developed by <a class="text-white-50" href="#">Chioma</a>
+    </p>
   </div>
 </footer>
 <!-- /footer -->
-
 <!-- jQuery -->
 <script src="plugins/jQuery/jquery.min.js"></script>
 <!-- Bootstrap JS -->

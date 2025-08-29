@@ -425,18 +425,23 @@ textarea.form-control {
 }
 
 .hero-area {
-  padding: 300px 0 200px;
+  padding: 100px 0 70px;
   position: relative;
 }
+
 @media (max-width: 767px) {
   .hero-area {
-    padding: 250px 0 150px;
+    padding: 60px 0 40px;
     overflow: hidden;
   }
 }
 .hero-area h1 {
   position: relative;
   z-index: 2;
+  font-size: 3rem; 
+  line-height: 1.0;
+  font-weight: 700;
+  margin-top: 100px; /* pushes the text down */
 }
 
 .layer {
@@ -711,7 +716,7 @@ blockquote {
 }
 
 .page-title-alt {
-  padding: 350px 0 70px;
+  padding: 250px 0 70px;
 }
 
 .border-thick {
@@ -765,7 +770,7 @@ blockquote {
 }
 
 .page-title {
-  padding: 250px 0 150px;
+  padding: 150px 0 90px;
 }
 .page-title .container {
   position: relative;
@@ -820,4 +825,12 @@ blockquote {
 .filter-controls li.active {
   font-weight: bold;
 }
-/*# sourceMappingURL=style.css.map */
+
+.navbar-brand img {
+  height: 130px;
+}
+
+.blog-logo img {
+  height: 100px; /* Adjust the height to make it bigger */
+  width: auto;   /* Keep the aspect ratio */
+}
