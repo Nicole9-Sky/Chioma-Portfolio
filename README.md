@@ -1,41 +1,60 @@
-# Kross By Themefisher
+# Chioma Ezeh Portfolio
 
-Kross is a creative, sleek and modern personal portfolio website template with a gorgeous appearance. It appears with an amazing, stunning graphics.
+Welcome to my personal portfolio website! This is a modern, creative, and professional showcase of my skills, projects, and growth in web development, UI/UX design, and web3 content creation.  
 
-<!-- demo -->
+This portfolio highlights my journey as a web developer and demonstrates my ability to build responsive, interactive websites.
+
+---
+
+## Live Portfolio
+
+Check out my live portfolio here: [Chioma Portfolio](https://nicole9-sky.github.io/Chioma-Portfolio/)
+
+---
+
 ## Example Site
 
-| [![](screenshots/homepage.png)](https://demo.themefisher.com/kross/) | [![](screenshots/about.png)](https://demo.themefisher.com/kross/about.html) | [![](screenshots/portfolio.png)](https://demo.themefisher.com/kross/portfolio.html) |
+| [![](screenshots/homepage.png)](http://127.0.0.1:5500/Chioma-Portfolio-main/theme/index.html) | [![](screenshots/about.png)](http://127.0.0.1:5500/Chioma-Portfolio-main/theme/about.html) | [![](screenshots/portfolio.png)](http://127.0.0.1:5500/Chioma-Portfolio-main/theme/portfolio.html) |
 |:---:|:---:|:---:|
 | **Home**  | **About**  | **Portfolio** |
-| [![](screenshots/blog.png)](https://demo.themefisher.com/kross/blog.html) | [![](screenshots/blog-details.png)](https://demo.themefisher.com/kross/blog-single.html) | [![](screenshots/contact.png)](https://demo.themefisher.com/kross/contact.html) |
+| [![](screenshots/blog.png)](http://127.0.0.1:5500/Chioma-Portfolio-main/theme/blog.html) | [![](screenshots/blog-details.png)](http://127.0.0.1:5500/Chioma-Portfolio-main/theme/blog-single.html) | [![](screenshots/contact.png)](http://127.0.0.1:5500/Chioma-Portfolio-main/theme/contact.html) |
 | **Blog** | **Blog Details** | **Contact** |
 
 👉🏻[View Live Preview](https://demo.themefisher.com/kross/)
 
-<!-- pages -->
+
 ## Pages
 
-* **Homepage**
-* **About**
-* **Portfolio**
-* **Blog**
-* **Blog Details**
-* **Contact**
+* **Homepage** – Overview of me, skills, and highlights of my portfolio.  
+* **About** – Detailed introduction about my background, skills, and journey into tech.  
+* **Portfolio** – Showcases all my projects with interactive filtering and project descriptions.  
+* **Blog** – Collection of articles and tutorials on web development and web3.  
+* **Blog Details** – Individual blog posts with detailed content.  
+* **Contact** – Contact form to reach me directly for collaboration, job opportunities, or mentorship.
 
-<!-- download -->
-## Download And installation
+---
+## Portfolio Projects
 
-Download this template from [Github](https://github.com/themefisher/kross/archive/main.zip)
+Here are some of the projects featured in my portfolio:
 
-<!-- installation -->
-### Basic Usages
+1. **Two-Factor Authentication Web App** – A secure Django web application implementing two-factor authentication, user login security, and role-based access control.  
+   Live Demo: [View Project](https://django-two-factor-auth-1.onrender.com/)  
 
-After downloading the template, you can simply edit the HTML and CSS files from the `theme` folder. To preview the changes you make to the code, you can open the index.html file in your web browser.
+2. **Library Management Website** – A Django-based system to manage books and library users efficiently with an intuitive interface.  
+   GitHub: [View Project](https://github.com/Nicole9-Sky/Library-Management-Website.git)  
 
-### Advanced Usage
+3. **Django Blog Project** – A responsive blog platform built using Django with user authentication, post management, and clean UI.  
+   GitHub: [View Project](https://github.com/Nicole9-Sky/django_blog.git)  
 
-For advanced usage, you have some prerequisites to install. Then you can run it on your localhost. You can view the package.json file to see which scripts are included.
+4. **UI/UX Designs & Branding** – Creative designs for web applications, logos, and branding projects.  
+
+5. **Web3 Content Creation Projects** – Informative content explaining blockchain and web3 topics.  
+
+6. **Portfolio Website** – My personal portfolio showcasing all projects and achievements in a single responsive site.  
+
+*(Additional projects are included in the live portfolio.)*
+
+---
 
 #### Install prerequisites (once for a machine)
 
@@ -51,6 +70,18 @@ Or visit the original [Gulp docs](https://gulpjs.com/docs/en/getting-started/qui
 #### Local setup
 
 After successfully installing those dependencies, open this theme with any IDE [[VS Code](https://code.visualstudio.com/) recommended], and then open the internal terminal of IDM [vs code shortcut <code>ctrl/cmd+\`</code>]
+
+
+## Features
+
+- Fully **responsive design** built with **HTML5**, **CSS3**, **Bootstrap 5**, and **JavaScript**  
+- **Interactive portfolio section** with project filtering and hover effects  
+- **Blog section** to demonstrate knowledge and tutorials in tech and web3  
+- **Contact form** integrated for direct communication  
+- Optimized for **performance** and **SEO-friendly**  
+- Modern and clean **UI/UX design**
+
+---
 
 * Install dependencies
 
@@ -72,31 +103,18 @@ After finishing all the customization, you can create a production build by runn
 
 ```
 npm run build
-```
-
-Now you get a `theme` folder that has all the changes you have made. you can use this folder as your main theme.
-
-👉🏻 [visit documentation](https://docs.themefisher.com/kross/)
-
-<!-- reporting issue -->
-## Reporting Issues
-
-We use GitHub Issues as the official bug tracker for the Kross Template. Please Search [existing issues](https://github.com/themefisher/Kross-Creative-Portfolio-Template/issues). It’s possible someone has already reported the same problem.
-If your problem or idea has not been addressed yet, feel free to [open a new issue](https://github.com/themefisher/Kross-Creative-Portfolio-Template/issues).
-
-<!-- support -->
-## Technical Support or Questions (Paid)
-
-If you have questions or need help integrating the product please [contact us](mailto:mehedi@themefisher.com) instead of opening an issue.
 
 <!-- licence -->
 ## License
 
-Copyright (c) 2016 - Present, Designed & Developed by [Themefisher](https://themefisher.com)
+## Installation
 
-**Code License:** Released under the [MIT](https://github.com/themefisher/constra/blob/main/LICENSE) license.
+You can run this project locally to preview or edit it.
 
-**Image license:** The images are only for demonstration purposes. They have their license, we don't have permission to share those images.
+### Clone the repository
+
+```bash
+git clone https://github.com/Nicole9-Sky/Chioma-Portfolio.git
 
 <!-- resources -->
 ## Resources
