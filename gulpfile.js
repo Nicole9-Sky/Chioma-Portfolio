@@ -37,10 +37,10 @@ gulp.task("html:build", function () {
     )
     .pipe(
       comments(`
-    WEBSITE: https://themefisher.com
-    TWITTER: https://twitter.com/themefisher
-    FACEBOOK: https://www.facebook.com/themefisher
-    GITHUB: https://github.com/themefisher/
+    WEBSITE: https://nicole9-sky.github.io/Chioma-Portfolio/
+    TWITTER: https://www.twitter.com/Nicole00081
+    INSTAGRAM: https://www.instagram.com/chioma_codes
+    GITHUB: https://github.com/Nicole9-Sky)
     `)
     )
     .pipe(gulp.dest(path.build.dirDev))
@@ -65,10 +65,10 @@ gulp.task("scss:build", function () {
     .pipe(sourcemaps.write("/"))
     .pipe(
       comments(`
-    WEBSITE: https://themefisher.com
-    TWITTER: https://twitter.com/themefisher
-    FACEBOOK: https://www.facebook.com/themefisher
-    GITHUB: https://github.com/themefisher/
+    WEBSITE: https://nicole9-sky.github.io/Chioma-Portfolio/
+    TWITTER: https://www.twitter.com/Nicole00081
+    INSTAGRAM: https://www.instagram.com/chioma_codes
+    GITHUB: https://github.com/Nicole9-Sky)
     `)
     )
     .pipe(gulp.dest(path.build.dirDev + "css/"))
@@ -85,10 +85,10 @@ gulp.task("js:build", function () {
     .src(path.src.js)
     .pipe(
       comments(`
-  WEBSITE: https://themefisher.com
-  TWITTER: https://twitter.com/themefisher
-  FACEBOOK: https://www.facebook.com/themefisher
-  GITHUB: https://github.com/themefisher/
+    WEBSITE: https://nicole9-sky.github.io/Chioma-Portfolio/
+    TWITTER: https://www.twitter.com/Nicole00081
+    INSTAGRAM: https://www.instagram.com/chioma_codes
+    GITHUB: https://github.com/Nicole9-Sky)
   `)
     )
     .pipe(gulp.dest(path.build.dirDev + "js/"))
