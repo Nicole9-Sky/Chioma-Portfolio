@@ -1,9 +1,9 @@
 [build]
 publish = "theme"
-command = "npm run build"
+command = ""
 
 [[headers]]
-for = "/*" # This defines which paths this specific [[headers]] block will cover.
+for = "/*" # 
 
 [headers.values]
 X-Frame-Options = "DENY"
