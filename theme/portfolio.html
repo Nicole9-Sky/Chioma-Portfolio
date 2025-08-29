@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  ================================================== -->
+  <meta charset="utf-8">
+  <title>Chioma Portfolio</title>
+
+  <!-- Mobile Specific Metas
+  ================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Chioma Ezeh – Software Engineer | Python, Django, MySQL | 15+ Backend/API Projects | ALX Graduate | Passionate about Tech and TechCommunity">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name="author" content="Chioma">
+  <meta name="generator" content="Chioma’s Tech Portfolio | Built with Kross Template v1.0">
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+  
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+
+  <!-- Main Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+<body>
+  
+
+<header class="navigation fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand font-tertiary h3" href="index.html"><img src="images/logo.png" alt="Myself"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+      aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse text-center" id="navigation">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">about</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="blog.html">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<!-- page title -->
+<section class="page-title bg-primary position-relative">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h1 class="text-white font-tertiary">My Project</h1>
+      </div>
+    </div>
+  </div>
+  <!-- background shapes -->
+  <img src="images/illustrations/page-title.png" alt="illustrations" class="bg-shape-1 w-100">
+  <img src="images/illustrations/leaf-pink-round.png" alt="illustrations" class="bg-shape-2">
+  <img src="images/illustrations/dots-cyan.png" alt="illustrations" class="bg-shape-3">
+</section>
+<!-- /page title -->
+
+<!-- portfolio -->
+<section class="section">
+  <div class="container">
+<div class="row mb-5">
+  <div class="col-12">
+    <div class="btn-group btn-group-toggle justify-content-center d-flex" data-toggle="buttons">
+      <label class="btn btn-sm btn-primary active">
+        <input type="radio" name="shuffle-filter" value="all" checked="checked" />All
+      </label>
+      <label class="btn btn-sm btn-primary">
+        <input type="radio" name="shuffle-filter" value="web-dev" />Web Development
+      </label>
+      <label class="btn btn-sm btn-primary">
+        <input type="radio" name="shuffle-filter" value="django" />Django Projects
+      </label>
+      <label class="btn btn-sm btn-primary">
+        <input type="radio" name="shuffle-filter" value="website" />Website Creation
+      </label>
+    </div>
+  </div>
+</div>
+
+<!-- Projects Grid -->
+<div class="row g-5 shuffle-wrapper">
+
+  <!-- Project 1 -->
+  <div class="col-lg-3 col-md-6 col-sm-12 mb-5 shuffle-item" data-groups='["django","web-dev"]'>
+    <div class="card hover-wrapper shadow h-100 p-3">
+      <img src="images/portfolio/item-6.png" class="card-img-top" alt="Django Two-Factor Auth">
+      <div class="card-body text-center">
+        <a href="https://django-two-factor-auth-1.onrender.com/" target="_blank" class="btn btn-primary btn-sm">View Project</a>
+      </div>
+      <p class="mt-2 text-dark">A secure Django web application implementing two-factor authentication, user login security, and role-based access control. Built with Python, Django, and Bootstrap for responsive design.</p>
+    </div>
+  </div>
+
+  <!-- Project 2 -->
+  <div class="col-lg-3 col-md-6 col-sm-12 mb-4 shuffle-item" data-groups='["web-dev","website"]'>
+    <div class="card hover-wrapper shadow h-100">
+      <img src="images/portfolio/item-1.png" class="card-img-top" alt="BookVault Frontend">
+      <div class="card-body text-center">
+        <a href="https://bookvault-frontend.netlify.app/" target="_blank" class="btn btn-primary btn-sm">View Project</a>
+      </div>
+      <p class="mt-2 text-dark">A modern frontend interface for BookVault, showcasing book listings, categories, and responsive design. Built with HTML, CSS, and JavaScript for an interactive user experience.</p>
+    </div>
+  </div>
+
+  <!-- Project 3 -->
+  <div class="col-lg-3 col-md-6 col-sm-12 mb-4 shuffle-item" data-groups='["django","web-dev"]'>
+    <div class="card hover-wrapper shadow h-100">
+      <img src="images/portfolio/item-11.png" class="card-img-top" alt="Django Blog Project 1">
+      <div class="card-body text-center">
+        <a href="https://django-blog-project-2-whsp.onrender.com" target="_blank" class="btn btn-primary btn-sm">View Project</a>
+      </div>
+      <p class="mt-2 text-dark">A full-featured Django blog application with CRUD functionality, user authentication, and dynamic content management. Fully responsive and optimized for modern web browsers.</p>
+    </div>
+  </div>
+
+  <!-- Project 4 -->
+  <div class="col-lg-3 col-md-6 col-sm-12 mb-4 shuffle-item" data-groups='["django","web-dev"]'>
+    <div class="card hover-wrapper shadow h-100">
+      <img src="images/portfolio/item-10.png" class="card-img-top" alt="Django Blog Project 2">
+      <div class="card-body text-center">
+        <a href="https://django-blog-project-2-whsp.onrender.com" target="_blank" class="btn btn-primary btn-sm">View Project</a>
+      </div>
+      <p class="mt-2 text-dark">A Django-based blog platform with enhanced user experience, comment system, and category management. Built for scalability and ease of content creation.</p>
+    </div>
+  </div>
+
+  <!-- Project 5 -->
+  <div class="col-lg-3 col-md-6 col-sm-12 mb-4 shuffle-item" data-groups='["web-dev","website"]'>
+    <div class="card hover-wrapper shadow h-100">
+      <img src="images/portfolio/item-2.png" class="card-img-top" alt="BookVault Frontend">
+      <div class="card-body text-center">
+        <a href="https://bookvault-frontend.netlify.app/" target="_blank" class="btn btn-primary btn-sm">View Project</a>
+      </div>
+      <p class="mt-2 text-dark">A modern frontend interface for BookVault, showcasing book listings, categories, and responsive design. Built with HTML, CSS, and JavaScript for an interactive user experience.</p>
+    </div>
+  </div>
+
+  <!-- Project 6 -->
+  <div class="col-lg-3 col-md-6 col-sm-12 mb-4 shuffle-item" data-groups='["django","web-dev"]'>
+    <div class="card hover-wrapper shadow h-100">
+      <img src="images/portfolio/item-7.png" class="card-img-top" alt="Django Two-Factor Auth">
+      <div class="card-body text-center">
+        <a href="https://django-two-factor-auth-1.onrender.com/" target="_blank" class="btn btn-primary btn-sm">View Project</a>
+      </div>
+      <p class="mt-2 text-dark">A secure Django web application implementing two-factor authentication, user login security, and role-based access control. Built with Python, Django, and Bootstrap for responsive design.</p>
+    </div>
+  </div>
+
+  <!-- Project 7 -->
+  <div class="col-lg-3 col-md-6 col-sm-12 mb-4 shuffle-item" data-groups='["django","web-dev"]'>
+    <div class="card hover-wrapper shadow h-100">
+      <img src="images/portfolio/item-8.png" class="card-img-top" alt="Django Two-Factor Auth">
+      <div class="card-body text-center">
+        <a href="https://django-two-factor-auth-1.onrender.com/" target="_blank" class="btn btn-primary btn-sm">View Project</a>
+      </div>
+      <p class="mt-2 text-dark">A secure Django web application implementing two-factor authentication, user login security, and role-based access control. Built with Python, Django, and Bootstrap for responsive design.</p>
+    </div>
+  </div>
+
+  <!-- Project 8 -->
+  <div class="col-lg-3 col-md-6 col-sm-12 mb-4 shuffle-item" data-groups='["django","web-dev"]'>
+    <div class="card hover-wrapper shadow h-100">
+      <img src="images/portfolio/item-9.png" class="card-img-top" alt="Django Blog Project 1">
+      <div class="card-body text-center">
+        <a href="https://django-blog-project-2-whsp.onrender.com" target="_blank" class="btn btn-primary btn-sm">View Project</a>
+      </div>
+      <p class="mt-2 text-dark">A full-featured Django blog application with CRUD functionality, user authentication, and dynamic content management. Fully responsive and optimized for modern web browsers.</p>
+    </div>
+  </div>
+
+  <!-- Project 9 -->
+  <div class="col-lg-3 col-md-6 col-sm-12 mb-4 shuffle-item" data-groups='["django","website"]'>
+    <div class="card hover-wrapper shadow h-100">
+      <img src="images/portfolio/item-15.png" class="card-img-top" alt="Library Management Website">
+      <div class="card-body text-center">
+        <a href="https://github.com/Nicole9-Sky/Library-Management-Website.git" target="_blank" class="btn btn-primary btn-sm">View Project</a>
+      </div>
+      <p class="mt-2 text-dark">A Django web application for managing a library system, including book records, user management, and borrowing system. Built with Python, Django, and Bootstrap.</p>
+    </div>
+  </div>
+
+  <!-- Project 10 -->
+  <div class="col-lg-3 col-md-6 col-sm-12 mb-4 shuffle-item" data-groups='["django","website"]'>
+    <div class="card hover-wrapper shadow h-100">
+      <img src="images/portfolio/item-16.png" class="card-img-top" alt="Library Management Website">
+      <div class="card-body text-center">
+        <a href="https://github.com/Nicole9-Sky/Library-Management-Website.git" target="_blank" class="btn btn-primary btn-sm">View Project</a>
+      </div>
+      <p class="mt-2 text-dark">A Django web application for managing a library system, including book records, user management, and borrowing system. Built with Python, Django, and Bootstrap.</p>
+    </div>
+  </div>
+
+  <!-- Project 11 -->
+  <div class="col-lg-3 col-md-6 col-sm-12 mb-4 shuffle-item" data-groups='["django","web-dev"]'>
+    <div class="card hover-wrapper shadow h-100">
+      <img src="images/portfolio/item-12.png" class="card-img-top" alt="Django Two-Factor Auth">
+      <div class="card-body text-center">
+        <a href="https://django-two-factor-auth-1.onrender.com/" target="_blank" class="btn btn-primary btn-sm">View Project</a>
+      </div>
+      <p class="mt-2 text-dark">A secure Django web application implementing two-factor authentication, user login security, and role-based access control. Built with Python, Django, and Bootstrap for responsive design.</p>
+    </div>
+  </div>
+
+  <!-- Project 12 -->
+  <div class="col-lg-3 col-md-6 col-sm-12 mb-4 shuffle-item" data-groups='["django","web-dev"]'>
+    <div class="card hover-wrapper shadow h-100">
+      <img src="images/portfolio/item-13.png" class="card-img-top" alt="Django Blog Project 2">
+      <div class="card-body text-center">
+        <a href="https://django-blog-project-2-whsp.onrender.com" target="_blank" class="btn btn-primary btn-sm">View Project</a>
+      </div>
+      <p class="mt-2 text-dark">A Django-based blog platform with enhanced user experience, comment system, and category management. Built for scalability and ease of content creation.</p>
+    </div>
+  </div>
+</div>
+  </div>
+  </div>
+</section>
+<!-- /portfolio -->
+
+<!-- contact -->
+<section class="section section-on-footer" data-background="images/backgrounds/bg-dots.png">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">Contact Info</h2>
+      </div>
+      <div class="col-lg-8 mx-auto">
+        <div class="bg-white rounded text-center p-5 shadow-down">
+          <h4 class="mb-80">Contact Form</h4>
+          <form action="#" class="row">
+            <div class="col-md-6">
+              <input type="text" id="name" name="name" placeholder="Full Name" class="form-control px-0 mb-4" required>
+            </div>
+            <div class="col-md-6">
+              <input type="email" id="email" name="email" placeholder="Email Address" class="form-control px-0 mb-4" required>
+            </div>
+            <div class="col-12">
+              <textarea name="message" id="message" class="form-control px-0 mb-4"
+                placeholder="Type Message Here" required></textarea>
+            </div>
+            <div class="col-lg-6 col-10 mx-auto">
+              <button class="btn btn-primary w-100">send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /contact -->
+
+<!-- footer -->
+<footer class="bg-dark footer-section">
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h5 class="text-light">Email</h5>
+          <p class="text-white paragraph-lg font-secondary">cezeh247@gmail.com</p>
+        </div>
+        <div class="col-md-4">
+          <h5 class="text-light">Phone</h5>
+          <p class="text-white paragraph-lg font-secondary">+234 913 011 44 32</p>
+        </div>
+        <div class="col-md-4">
+          <h5 class="text-light">Location</h5>
+          <p class="text-white paragraph-lg font-secondary">Lagos, Nigeria</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="border-top text-center border-dark py-5">
+    <p class="mb-0 text-light">Copyright &copy;<script>
+        var CurrentYear = new Date().getFullYear()
+        document.write(CurrentYear)
+      </script></p>
+  </div>
+</footer>
+<!-- /footer -->
+
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<!-- slick slider -->
+<script src="plugins/slick/slick.min.js"></script>
+<!-- filter -->
+<script src="plugins/shuffle/shuffle.min.js"></script>
+
+<!-- Main Script -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
