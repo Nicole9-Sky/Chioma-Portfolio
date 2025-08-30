@@ -39,6 +39,29 @@
 
   <!-- Main Stylesheet -->
   <link href="css/style.css" rel="stylesheet">
+  ...
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  
+<style>
+.web3-text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.3rem;
+  line-height: 1.8;
+  font-weight: 400;
+  color: #222;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 30px auto;
+}
+
+@media (max-width: 768px) {
+  .web3-text { font-size: 1.1rem; }
+}
+
+@media (max-width: 480px) {
+  .web3-text { font-size: 1rem; }
+}
+</style>
 
 </head>
 <body>
@@ -81,12 +104,29 @@
 <section class="hero-area bg-primary" id="parallax">
   <div class="container">
     <div class="row">
-      <div class="col-lg-11 mx-auto">
-        <h1 class="text-white font-tertiary">HI <br> I'M <br> SOFTWARE ENGINEER</h1>
+      <div class="col-lg-11 mx-auto text-center">
+        <h1 class="text-white font-tertiary">
+          HI, I'M CHIOMA <br> A <br> SOFTWARE ENGINEER
+        </h1>
+        <p class="text-white mb-4">
+          I build secure and scalable web applications using Python, Django, React, and MySQL. From crafting two-factor authentication systems to full-stack apps, I bring ideas to life with clean code and intuitive user experiences.
+        </p>
+
+        <!-- Call-to-action buttons -->
+        <a href="#portfolio" class="btn btn-light btn-lg">View My Work</a>
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=cezeh247@gmail.com&su=Hiring%20Request&body=Hello%20Chioma,%20I%20would%20like%20to%20hire%20you." target="_blank" 
+   class="btn btn-light btn-lg" 
+   style="margin-left:100px;">
+   Let’s Build Something Together
+</a>
       </div>
     </div>
   </div>
-  </div>
+  <!-- Decorative Shapes -->
+  <div class="decor-circle floating"></div>
+  <div class="decor-triangle floating"></div>
+  <div class="decor-square floating"></div>
+</section>
   <!-- social icon -->
   <ul class="list-unstyled ml-5 mt-3 position-relative zindex-1">
     <li class="mb-3"><a class="text-white" href="https://github.com/Nicole9-Sky"><i class="ti-github"></i></a></li>
@@ -122,6 +162,7 @@ I am currently focused on backend development and eager to contribute to meaning
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2 class="section-title">Skills I Excel In</h2>
+         <p>Combining technical expertise with creative problem-solving to build functional, scalable, and visually appealing web applications.</p>
       </div>
 
       <!-- Website Creation -->
@@ -131,7 +172,7 @@ I am currently focused on backend development and eager to contribute to meaning
             <div class="wave" data-progress="90%"></div>
           </div>
           <div class="card-footer bg-white">
-            <h4 class="card-title">Website Creation (90%)</h4>
+            <h4 class="card-title">Website Creation</h4>
             <p>Designing and developing responsive websites using HTML, CSS, Bootstrap, Django, Flask, and deploying projects online.</p>
           </div>
         </div>
@@ -144,8 +185,9 @@ I am currently focused on backend development and eager to contribute to meaning
             <div class="wave" data-progress="60%"></div>
           </div>
           <div class="card-footer bg-white">
-            <h4 class="card-title">Django & REST APIs (60%)</h4>
-            <p>Building scalable backend systems, RESTful APIs, authentication systems, and connecting to databases for real-world applications.</p>
+            <h4 class="card-title">Languages & Frameworks</h4>
+            <p>Python, Django, React, JavaScript</p>
+            <p><strong>Level:</strong> Intermediate → Advanced</p>
           </div>
         </div>
       </div>
@@ -157,8 +199,9 @@ I am currently focused on backend development and eager to contribute to meaning
             <div class="wave" data-progress="80%"></div>
           </div>
           <div class="card-footer bg-white">
-            <h4 class="card-title">MySQL, Databases & Git/GitHub (80%)</h4>
-            <p>Database design, query optimization, version control, collaboration, and maintaining production-ready code repositories.</p>
+            <h4 class="card-title">Databases & Tools</h4>
+            <p>MySQL, PostgreSQL, Git/GitHub</p>
+            <p><strong>Level:</strong> Intermediate → Advanced</p>
           </div>
         </div>
       </div>
@@ -170,8 +213,9 @@ I am currently focused on backend development and eager to contribute to meaning
             <div class="wave" data-progress="70%"></div>
           </div>
           <div class="card-footer bg-white">
-            <h4 class="card-title">Python Programming (70%)</h4>
-            <p>Writing clean, maintainable Python code for web apps, scripts, automation, and data processing using Django and Flask.</p>
+            <h4 class="card-title">Web & Graphic Design</h4>
+            <p>UI/UX design, Figma, Canva, Bootstrap, Responsive Layouts</p>
+            <p><strong>Level:</strong> Intermediate</p>
           </div>
         </div>
       </div>
@@ -183,8 +227,9 @@ I am currently focused on backend development and eager to contribute to meaning
             <div class="wave" data-progress="70%"></div>
           </div>
           <div class="card-footer bg-white">
-            <h4 class="card-title">Soft Skills</h4>
-            <p>Communication, Problem-Solving, Teamwork, Adaptability, Time Management — essential for collaborating on tech projects.</p>
+            <h4 class="card-title">Web3 Content Writing</h4>
+            <p>Technical articles, NFT guides, blockchain tutorials, smart contract explainers</p>
+            <p><strong>Level:</strong> Intermediate</p>
           </div>
         </div>
       </div>
@@ -196,8 +241,9 @@ I am currently focused on backend development and eager to contribute to meaning
             <div class="wave" data-progress="80%"></div>
           </div>
           <div class="card-footer bg-white">
-            <h4 class="card-title">Graphic & Web Design (65-70%)</h4>
-            <p>Creating UI/UX designs, landing pages, graphics, and layouts using Canva, Figma, and Bootstrap for visually appealing interfaces.</p>
+            <h4 class="card-title">Soft Skills</h4>
+            <p>Communication, Problem-Solving, Teamwork, Adaptability, Time Management</p>
+            <p><strong>Level:</strong> Advanced</p>
           </div>
         </div>
       </div>
@@ -209,8 +255,9 @@ I am currently focused on backend development and eager to contribute to meaning
             <div class="wave" data-progress="75%"></div>
           </div>
           <div class="card-footer bg-white">
-            <h4 class="card-title">Web3 Content Writing (75%)</h4>
-            <p>Writing clear, engaging, and technical content for Web3 projects, blockchain guides, NFT tutorials, and smart contract explainers.</p>
+            <h4 class="card-title">Website Creation & Development</h4>
+            <p>WBuilding responsive and functional websites using HTML, CSS, Django, Flask, React</p>
+            <p><strong>Level:</strong> Advanced</p>
           </div>
         </div>
       </div>
@@ -234,7 +281,7 @@ I am currently focused on backend development and eager to contribute to meaning
         <p class="mb-0">Jan 2023 - Jun 2023</p>
         <h4>Web Development Intern</h4>
         <h6 class="text-light">ALX Africa</h6>
-        <p>Learned and applied web development fundamentals, built responsive websites using HTML, CSS, Bootstrap, and connected front-end to back-end systems.</p>
+        <p>Learned backend development and REST API design, and built foundational web applications using Django and Bootstrap.</p>
       </div>
 
       <!-- Experience 2 -->
@@ -243,7 +290,8 @@ I am currently focused on backend development and eager to contribute to meaning
         <p class="mb-0">Jul 2023 - Dec 2023</p>
         <h4>Django & Backend Developer</h4>
         <h6 class="text-light">ALX Projects</h6>
-        <p>Developed secure Django applications, implemented REST APIs, user authentication, database design with MySQL, and deployed projects online.</p>
+        <p>Developed secure Django applications, implemented REST APIs, user authentication, database design with MySQL, and deployed projects online.<p>Developed full-stack web apps using Django and React, implemented secure authentication, and designed databases with MySQL.</p>
+        </p>
       </div>
 
       <!-- Experience 3 -->
@@ -252,7 +300,7 @@ I am currently focused on backend development and eager to contribute to meaning
         <p class="mb-0">Jan 2024 - Present</p>
         <h4>Web3 Content Creator & Freelance Developer</h4>
         <h6 class="text-light">Self-Projects & Freelance</h6>
-        <p>Writing Web3 tutorials, blockchain guides, and NFT content; building small projects for clients; managing GitHub repositories; and delivering production-ready web apps.</p>
+        <p>Create educational Web3 content, build small-scale blockchain projects, manage GitHub repositories, and deliver production-ready web applications. Building small projects for clients; managing GitHub repositories; and delivering production-ready web apps.</p>
       </div>
 
     </div>
@@ -314,7 +362,7 @@ I am currently focused on backend development and eager to contribute to meaning
 
 
 <!-- portfolio -->
-<section class="section">
+<section class="section" id="portfolio">
   <div class="container">
     <div class="row">
       <div class="col-12 text-center mb-5">
@@ -332,7 +380,9 @@ I am currently focused on backend development and eager to contribute to meaning
             <a href="https://django-two-factor-auth-1.onrender.com/" target="_blank" class="btn btn-primary btn-sm">View Project</a>
           </div>
         </div>
-        <p class="mt-2 text-dark">A secure Django web application implementing two-factor authentication, user login security, and role-based access control. Built with Python, Django, and Bootstrap for responsive design.<p>This project is a fully-featured Django web application designed to enhance user account security by implementing two-factor authentication (2FA). It includes secure login, registration, and role-based access control, ensuring users only access areas relevant to their roles. Built with Python, Django, and Bootstrap, the app integrates best practices for authentication and responsive design. It demonstrates my ability to develop secure, scalable, and user-friendly web applications while applying web security principles and database management skills.</p></p>
+        <p class="mt-2 text-dark"><strong>Description:</strong> Content-driven blog app with user authentication and post management.  
+          <strong>Key Contribution:</strong> Built dynamic post interactions, comment system, and responsive design.  
+          <strong>Tech Stack:</strong> Django, Bootstrap, PostgreSQL.</p>
       </div>
 
       <!-- Project 2 -->
@@ -343,7 +393,9 @@ I am currently focused on backend development and eager to contribute to meaning
             <a href="https://bookvault-frontend.netlify.app/" target="_blank" class="btn btn-primary btn-sm">View Project</a>
           </div>
         </div>
-        <p class="mt-2 text-dark">BookVault is a modern web application for managing and exploring books, built with a React frontend and a Django REST API backend. Users can browse, search, and filter books, track reading progress, and manage their personal library. This project highlights my full-stack development skills, including API integration, responsive design, and state management. It also demonstrates my ability to implement real-world features and provide a seamless user experience.</p>
+        <p class="mt-2 text-dark"><strong>Description:</strong> This is a fully-featured Django web application developed to enhance the security of user accounts by implementing a robust two-factor authentication (2FA) system. The project ensures that only authorized users can access sensitive areas through secure login and role-based access control.  
+          <strong>Key Contribution:</strong> I designed and implemented the authentication workflow, managed user roles, and created an intuitive dashboard UI to ensure seamless navigation.  
+          <strong>Tech Stack:</strong> Python, Django, Bootstrap, PostgreSQL.</p>
       </div>
 
       <!-- Project 3 -->
@@ -354,7 +406,9 @@ I am currently focused on backend development and eager to contribute to meaning
             <a href="https://django-blog-project-2-whsp.onrender.com!" class="btn btn-primary btn-sm">View Project</a>
           </div>
         </div>
-        <p class="mt-2 text-dark">This Django-powered blog application allows users to read, comment on, and share posts. It features user authentication, post management, and a clean, responsive design. Built with Python, Django, and Bootstrap, the project demonstrates my skills in developing content-driven web apps, integrating databases for dynamic content, and creating user-centric designs.</p>
+        <p class="mt-2 text-dark"><strong>Description:</strong> BookVault is a modern, full-stack web application designed for managing and exploring books. Users can browse, search, and filter through a library of books, track their reading progress, and manage their personal collections with ease.  
+          <strong>Key Contribution:</strong> I developed the front-end interface using React, connected it to a Django REST API, implemented efficient state management, and ensured responsive design for seamless use across devices.  
+          <strong>Tech Stack:</strong> React, Django REST Framework, MySQL, CSS.</p>
       </div>
 
       <!-- Project 4 -->
@@ -365,7 +419,9 @@ I am currently focused on backend development and eager to contribute to meaning
             <a href="https://django-blog-project-2-whsp.onrender.com!" class="btn btn-primary btn-sm">View Project</a>
           </div>
         </div>
-        <p class="mt-2 text-dark">An enhanced version of my blog project with added features such as post categorization, search functionality, and an admin panel for content management. This project showcases my ability to improve existing applications, implement advanced Django features, and enhance user experience through better organization and accessibility of content.</p>
+        <p class="mt-2 text-dark"><strong>Description:</strong> A Django-powered blog platform that allows users to read, comment, and share posts while maintaining secure authentication. The system supports dynamic content management and ensures a responsive interface suitable for all devices.  
+          <strong>Key Contribution:</strong> I implemented user authentication, post creation and management, commenting system, and responsive design to provide a smooth and engaging user experience.  
+          <strong>Tech Stack:</strong> Django, Bootstrap, PostgreSQL.</p>
       </div>
 
       <!-- Project 5 -->
@@ -376,7 +432,9 @@ I am currently focused on backend development and eager to contribute to meaning
             <a href="https://bookvault-frontend.netlify.app/" class="btn btn-primary btn-sm">View Project</a>
           </div>
         </div>
-        <p class="mt-2 text-dark">A dynamic online bookstore platform that allows users to browse, filter, and purchase books. Built with Django and integrated with a MySQL database, it includes features like cart management, order tracking, and secure user authentication. This project demonstrates my ability to develop e-commerce solutions, manage relational databases, and create responsive web interfaces for optimal user interaction.</p>
+        <p class="mt-2 text-dark"><strong>Description:</strong> An upgraded version of the blog platform featuring advanced functionality including post categorization, keyword search, and an admin panel for content management. The application enhances user navigation and content accessibility.  
+          <strong>Key Contribution:</strong> I implemented advanced Django features, improved overall UX, and structured content for better readability and usability.  
+          <strong>Tech Stack:</strong> Django, Bootstrap, JavaScript.</p>
       </div>
 
       <!-- Project 6 -->
@@ -387,7 +445,9 @@ I am currently focused on backend development and eager to contribute to meaning
             <a href="https://django-two-factor-auth-1.onrender.com/!" class="btn btn-primary btn-sm">View Project</a>
           </div>
         </div>
-        <p class="mt-2 text-dark">A two-factor authentication demo app focused on learning and demonstrating secure login systems. Users experience a fully functional authentication workflow, showcasing role-based access, session management, and protection against unauthorized access. This project emphasizes my understanding of web security, authentication protocols, and practical implementation in Django applications.></p>
+        <p class="mt-2 text-dark"><strong>Description:</strong> A dynamic e-commerce platform for browsing, selecting, and purchasing books online. Users can manage carts, track orders, and access a personalized library experience.  
+          <strong>Key Contribution:</strong> I developed backend logic with Django, integrated MySQL for robust data management, and ensured secure authentication for user accounts.  
+          <strong>Tech Stack:</strong> Django, MySQL, Bootstrap, JavaScript.</p>
       </div>
 
       <!-- Project 7 -->
@@ -398,7 +458,9 @@ I am currently focused on backend development and eager to contribute to meaning
             <a href="https://django-two-factor-auth-1.onrender.com/!" class="btn btn-primary btn-sm">View Project</a>
           </div>
         </div>
-        <p class="mt-2 text-dark">BookVault frontend clone project showcasing a polished user interface for browsing and exploring books. Built with React and integrated with APIs for dynamic content, it emphasizes my frontend development skills, component-based design, and attention to responsive and interactive UI elements. This project also highlights my ability to translate backend functionality into seamless frontend experiences.</p>
+        <p class="mt-2 text-dark"><strong>Description:</strong> A two-factor authentication demonstration project for learning and showcasing secure login systems. Includes full authentication workflow with session management and protection against unauthorized access.  
+          <strong>Key Contribution:</strong> I implemented role-based access, session handling, and ensured security best practices throughout the app.  
+          <strong>Tech Stack:</strong> Django, Bootstrap, Python.</p>
       </div>
 
       <!-- Project 8 -->
@@ -409,7 +471,9 @@ I am currently focused on backend development and eager to contribute to meaning
             <a href="https://bookvault-frontend.netlify.app/!" class="btn btn-primary btn-sm">View Project</a>
           </div>
         </div>
-        <p class="mt-2 text-dark">A web-based Library Management System built with Django and MySQL. The system allows users to borrow, return, and manage library resources efficiently, with an admin panel for tracking inventory and users. This project demonstrates my skills in database design, backend logic, and creating applications that solve real-world problems with structured, scalable solutions.</p>
+        <p class="mt-2 text-dark"><strong>Description:</strong> A web-based Library Management System designed to allow users to borrow, return, and manage library resources efficiently. Admins can track inventory and user activity seamlessly.  
+          <strong>Key Contribution:</strong> I implemented database design, backend logic, and user authentication for a structured and scalable library solution.  
+          <strong>Tech Stack:</strong> Django, MySQL, Bootstrap.</p>
       </div>
 
        <!-- Project 8 -->
@@ -420,7 +484,9 @@ I am currently focused on backend development and eager to contribute to meaning
             <a href="https://django-blog-project-2-whsp.onrender.com!" class="btn btn-primary btn-sm">View Project</a>
           </div>
         </div>
-        <p class="mt-2 text-dark">A content-driven educational platform built with Django, allowing instructors to upload courses and students to access learning materials. Features include authentication, role-based access, and interactive content display. This project highlights my backend development capabilities, database integration, and focus on creating solutions that enhance learning and engagement.</p>
+        <p class="mt-2 text-dark"><strong>Description:</strong> A content-driven educational platform that enables instructors to upload courses and students to access learning materials. Includes role-based access and interactive content.  
+          <strong>Key Contribution:</strong> I implemented authentication, content management, and database integration, focusing on creating a smooth learning experience.  
+          <strong>Tech Stack:</strong> Django, Bootstrap, PostgreSQL.</p>
       </div>
 
        <!-- Project 8 -->
@@ -431,7 +497,9 @@ I am currently focused on backend development and eager to contribute to meaning
             <a href="https://django-two-factor-auth-1.onrender.com/!" class="btn btn-primary btn-sm">View Project</a>
           </div>
         </div>
-        <p class="mt-2 text-dark">A Web3 content-focused blog platform where users can explore and publish blockchain-related articles. Built with Django and integrated with external APIs for dynamic content, this project demonstrates my skills in Web3 technologies, content management, and designing platforms that cater to modern blockchain and cryptocurrency audiences.</p>
+        <p class="mt-2 text-dark"><strong>Description:</strong> A Web3-focused blog platform where users can publish and explore blockchain-related articles. Integrated APIs provide dynamic content and Web3 functionalities.  
+          <strong>Key Contribution:</strong> I developed backend integration, managed content workflows, and ensured a user-friendly platform for Web3 enthusiasts.  
+          <strong>Tech Stack:</strong> Django, APIs, Bootstrap.</p>
       </div>
 
        <!-- Project 8 -->
@@ -442,8 +510,9 @@ I am currently focused on backend development and eager to contribute to meaning
             <a href="https://django-blog-project-2-whsp.onrender.com!" class="btn btn-primary btn-sm">View Project</a>
           </div>
         </div>
-        <p class="mt-2 text-dark">A website creation project where users can design, customize, and publish their personal websites without prior coding knowledge. Built using Django for the backend and Bootstrap for responsive design, this project highlights my ability to develop tools that empower users, combine frontend and backend skills, and provide intuitive interfaces for real-world applications.
-</p></p>
+        <p class="mt-2 text-dark"> <strong>Description:</strong> A platform where users can create, customize, and publish personal websites without coding knowledge. It provides intuitive tools and responsive templates.  
+          <strong>Key Contribution:</strong> I implemented backend management, frontend responsiveness, and interactive UI to empower users to design websites easily.  
+          <strong>Tech Stack:</strong> Django, Bootstrap, JavaScript.</p>
       </div>
 
       <!-- Project 9 -->
@@ -454,7 +523,9 @@ I am currently focused on backend development and eager to contribute to meaning
             <a href="https://github.com/Nicole9-Sky/Library-Management-Website.git" target="_blank" class="btn btn-primary btn-sm">View Project</a>
           </div>
         </div>
-        <p class="mt-2 text-dark">A web-based Library Management System built with Django and MySQL. The system allows users to borrow, return, and manage library resources efficiently, with an admin panel for tracking inventory and users. This project demonstrates my skills in database design, backend logic, and creating applications that solve real-world problems with structured, scalable solutions. It also showcases my ability to integrate user authentication, manage roles, and ensure smooth user interactions.</p>
+        <p class="mt-2 text-dark"> <strong>Description:</strong> A complete web-based Library Management System featuring user authentication, borrowing, returning, and admin management tools.  
+          <strong>Key Contribution:</strong> I implemented database structure, backend logic, and user roles to ensure smooth library operations.  
+          <strong>Tech Stack:</strong> Django, MySQL, Bootstrap..</p>
       </div>
 
       <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
@@ -464,7 +535,9 @@ I am currently focused on backend development and eager to contribute to meaning
             <a href="https://github.com/Nicole9-Sky/Library-Management-Website.git" target="_blank" class="btn btn-primary btn-sm">View Project</a>
           </div>
         </div>
-        <p class="mt-2 text-dark">A website creation project where users can design, customize, and publish their personal websites without prior coding knowledge. Built using Django for the backend and Bootstrap for responsive design, this project highlights my ability to develop tools that empower users, combine frontend and backend skills, and provide intuitive interfaces for real-world applications. It demonstrates skills in UI/UX, dynamic content management, and building scalable web solutions that deliver value to end-users.</p>
+        <p class="mt-2 text-dark"> <strong>Description:</strong> A comprehensive website creation platform that allows users to build and publish websites with no prior coding knowledge.  
+          <strong>Key Contribution:</strong> I developed backend logic, implemented frontend responsiveness, and designed an intuitive UI/UX interface.  
+          <strong>Tech Stack:</strong> Django, Bootstrap, JavaScript.</p>
       </div>
     </div>
   </div>
@@ -477,26 +550,42 @@ I am currently focused on backend development and eager to contribute to meaning
       <div class="col-12 text-center mb-5">
         <h2 class="section-title">WEB3 CONTENT WRITER</h2>
         <p class="lead">
-          Yapping, writing content, and updates about Web3, blockchain, NFTs, and crypto projects. I write engaging articles, guides, tutorials, and social media content to educate communities, spark discussions, and make Web3 accessible to everyone. My content helps readers understand trends, tools, and opportunities in the decentralized world.
-        </p>
+          <p><strong>I create engaging content about Web3, blockchain, NFTs, and crypto projects. My articles, guides, and tutorials educate communities, spark discussions, and make the decentralized world accessible to everyone.
+        </p>Yapping, writing content, and updates about Web3, blockchain, NFTs, and crypto projects. I write engaging articles, guides, tutorials, and social media content to educate communities, spark discussions, and make Web3 accessible to everyone. My content helps readers understand trends, tools, and opportunities in the decentralized world.
+        </strong></p>
       </div>
 
       <!-- Web3 Images -->
       <div class="col-lg-4 col-md-6 mb-4">
         <div class="card shadow text-center">
           <img src="images/Web3/Web3-1.png" class="card-img-top" alt="Web3 Content Example 1">
+           <a href="https://example.com/intro-to-web3" class="overlay-link">
+            <div class="overlay">
+              <h5 class="overlay-title">Intro to Web3 for Beginners</h5>
+            </div>
+          </a>
         </div>
       </div>
 
       <div class="col-lg-4 col-md-6 mb-4">
         <div class="card shadow text-center">
           <img src="images/Web3/Web3-2.png" class="card-img-top" alt="Web3 Content Example 2">
+          <a href="https://example.com/secure-smart-contracts" class="overlay-link">
+            <div class="overlay">
+              <h5 class="overlay-title">Secure Smart Contracts 101</h5>
+            </div>
+          </a>
         </div>
       </div>
 
       <div class="col-lg-4 col-md-6 mb-4">
         <div class="card shadow text-center">
           <img src="images/Web3/Web3-3.png" class="card-img-top" alt="Web3 Content Example 3">
+         <a href="https://example.com/other-web3-article" class="overlay-link">
+            <div class="overlay">
+              <h5 class="overlay-title">Other Featured Article</h5>
+            </div>
+          </a>
         </div>
       </div>
 
@@ -608,7 +697,11 @@ I am currently focused on backend development and eager to contribute to meaning
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        <h2 class="section-title">Contact Info</h2>
+        <h2 class="section-title">Contact Me</h2>
+        <p class="mb-5">Let’s build something amazing together! Drop me a message and I’ll get back to you.</p>
+        <p>
+          <strong>Email:</strong> <a href="mailto:chioma@example.com">cezeh247@gmail.com</a> | 
+        </p>
       </div>
       <div class="col-lg-8 mx-auto">
         <div class="bg-white rounded text-center p-5 shadow-down">
@@ -625,7 +718,7 @@ I am currently focused on backend development and eager to contribute to meaning
                 placeholder="Type Message Here" required></textarea>
             </div>
             <div class="col-lg-6 col-10 mx-auto">
-              <button class="btn btn-primary w-100">send</button>
+              <button class="btn btn-primary w-100">Send</button>
             </div>
           </form>
         </div>
@@ -634,6 +727,7 @@ I am currently focused on backend development and eager to contribute to meaning
   </div>
 </section>
 <!-- /contact -->
+
 
 <!-- footer -->
 <footer class="bg-dark footer-section">
